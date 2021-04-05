@@ -1,0 +1,337 @@
+
+@font-face{
+    font-family: 'Conthrax';
+    src: local('Conthrax'), url(./fonts/conthrax-sb.ttf);
+}
+
+/* .show-col{
+    border: 1px solid white;
+} */
+
+/* main body css in App.js */
+
+.bodyT{
+    background-image: url("images/background.jpg");
+    background-color: #363f4a;
+    background-size: auto;
+    background-attachment: fixed;
+    min-height: 100%;
+    min-width: 1366px;
+
+}
+
+.divContain{
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow-x: hidden
+}
+.divContain2{
+    width: 95%;
+    margin: auto;
+}
+/* navbar css in navbar.js */
+
+.navLink{
+    color: white;
+    font-size:1.2em;
+    line-height: 20px;
+    font-family: Conthrax;
+}
+/* footer css in footer.js */
+.footerWholeSize{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.gitIcon{
+    font-size: 4em;
+    text-align: center;
+}
+
+.gitCol{
+    margin-top:5%;
+}
+
+.cateList li{
+    margin-top: 10px;
+}
+
+/* landing page css in main.js */
+.logo-col{
+    margin-left: 50%;
+    margin-right:50%;
+}
+.title-col{
+    text-align: center;
+    color: white;
+    font-size: 5em;
+    font-family: Conthrax;
+    margin-top: 35%;
+}
+.mainTitleSub{
+    font-size:0.8em;
+    color:white;
+    font-family: Conthrax;
+    text-align: center;
+    margin-bottom: 12%;
+}
+.chevronDown{
+    color:white;
+    font-size:3em;
+    text-align: center;
+}
+.mainAbout1{
+    font-size:1.5em;
+    color:white;
+    font-family: Conthrax;
+    margin-bottom: 12%;
+
+}
+.mainAbout2{
+    font-size:1.5em;
+    color:white;
+    font-family: Conthrax;
+    margin-top: 12%;
+    text-align: right;
+}
+.mainDescSec{
+    background-color: #212121;
+    padding-top: 4%;
+    opacity: 0.8;
+}
+.innerMainDescSec{
+    width:75%;
+    margin:auto;
+}
+.mainTextDesc p{
+    margin-top: 20%;
+}
+
+
+/*Category buttons */
+.mainCateTitle{
+    font-size:3em;
+    color:white;
+    font-family: Conthrax;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.cateBtns{
+    margin-top: 2%;
+}
+.cateBtns p{
+    font-size: 2em;
+    font-family: Conthrax;
+}
+.image-style img{
+    margin-bottom: 10%;
+}
+/* Overall Categories CSS*/
+.cateTitle{
+    color: white;
+    font-size:4em;
+    font-family:Conthrax;
+    text-align: center;
+    margin-top: 5%;
+}
+.cateSub{
+    color: white;
+    font-size:1em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.cateCardStyle{
+    margin-bottom: 7%;
+    width:22rem;
+}
+.cateCardContain{
+    width: 85%;
+    margin:auto;
+    margin-top: 5%;
+}
+.cateIndiviRow{
+    margin-bottom: 2%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+.filterText{
+    color:white;
+}
+.filterWidth{
+    width: 70%;
+    margin:auto;
+}
+
+/* 404 catch page in 404.js */
+.title-sub{
+    font-size:2.5em;
+    color: white;
+    margin-top: 2%;
+}
+.sub-sub{
+    font-size:1.5em;
+    color: white;
+    margin-top: 2%;
+}
+.logo-sub{
+    margin-top:1%;
+}
+.lost-col{
+    margin-right: 50%;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+/* Uploads css for uploads.js */
+.uploadsTitle{
+    color: white;
+    font-size:4em;
+    font-family:Conthrax;
+    text-align: center;
+    margin-top: 5%;
+}
+.formWidth{
+    width: 70%;
+    margin:auto;
+}
+
+.imgPreview{
+    border: 3px solid white;
+    height: 40rem;
+    width: 50rem;
+}
+.imgPreview img{
+    margin: auto;
+    height: 90%;
+    margin-right: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, 5%);
+}
+.imgDetails{
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+.imgTitle{
+    margin-bottom:2%;
+}
+.persDetailsCol{
+    margin-top: 2%;
+}
+.uploadBtn{
+   margin-top:3%;
+}
+/* getting started CSS */
+.gsContain{
+    width: 90%;
+    margin:auto;
+}
+.gsTitle{
+    color: white;
+    font-size:4em;
+    font-family:Conthrax;
+    text-align: center;
+    margin-bottom: 6%;
+    margin-top:5%;
+}
+.tabsTitle{
+    color: white;
+    font-family:Conthrax;
+    font-size: 1.2em;
+}
+.gsContent{
+    color:white;
+}
+
+.gsAccord{
+    color: black;
+    font-family:Conthrax;
+    font-size: 1.1em;
+}
+.gsCard{
+    opacity: 0.8;
+}
+.gsAccordBack{
+    background-color:#1a1d20;
+}
+.helpText{
+    color: white;
+    font-size: 1.2em;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+/* individual post */
+.postDivider{
+    color:white;
+    text-align: center;
+}
+.postImg img{
+    margin: auto;
+    width: 80%;
+    margin-right: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, 5%);
+    margin-bottom: 8%;
+}
+.postTextWidth{
+    width: 80%;
+    margin:auto;
+}
+.postTitle{
+    color: white;
+    font-size:2em;
+    font-family:Conthrax;
+    text-align: center;
+}
+.postsubTitle{
+    color: white;
+    font-size:0.9em;
+    font-family:Conthrax;
+    text-align: center;
+}
+.postsubTitle span{
+    color: white;
+    font-size:0.8em;
+    opacity: 0.7;
+}
+.equip-AQPTitle{
+    color: white;
+    font-size:1.4em;
+    font-family:Conthrax;
+    text-align: center;
+}
+.equip-AQPDesc{
+    color:white;
+    font-size:1em;
+}
+.pindexinput {
+   margin-top:5%;
+}
+.edit-row{
+    margin-top: 5%;
+    text-align: center;
+}
+.commentTitle{
+    color: white;
+    font-size:1.6em;
+    font-family:Conthrax;
+    text-align: center;
+}
+.commentNamebox{
+    margin-top: 1%;
+}
+.commentSectionWhole{
+    color:white;
+    width: 80%;
+    margin:auto;
+}
+.commentName{
+    font-family: Conthrax;
+    font-size: 1.2em;
+}
+.commentDesc{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.commentDelete{
+    float: right;
+}

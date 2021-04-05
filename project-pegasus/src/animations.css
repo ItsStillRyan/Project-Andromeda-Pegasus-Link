@@ -1,0 +1,60 @@
+/* logo animations */
+.mainLogoSec{
+    position: relative;
+    padding-top:5%;
+    top: 50%;
+    right: 50%;
+    transform: translate(30%);
+    
+}
+.ring1 img{
+    position: absolute;
+    animation: rotate1 50s linear infinite;
+}
+@keyframes rotate1 {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(359deg);}
+}
+.ring2 img{
+    position: absolute; 
+    animation: rotate2 30s linear infinite
+}
+@keyframes rotate2 {
+  from {transform: rotate(359deg);}
+  to {transform: rotate(0deg);}
+}
+.ring3 img{
+    position: absolute;    
+    animation: rotate3 100s linear infinite
+}
+@keyframes rotate3 {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(359deg);}
+}
+.ring4 img{
+    position: absolute;    
+    animation: rotate4 150s linear infinite
+}
+@keyframes rotate4 {
+  from {transform: rotate(359deg);}
+  to {transform: rotate(0deg);}
+}
+.pegaCenter img{
+    position: absolute;    
+    animation: fade1 5s linear infinite
+}
+@keyframes fade1 {
+   0% {opacity: 1;}
+   50% {opacity: 0;} 
+   100% {opacity: 1;} 
+}
+.backgroundCenter img{
+    position: absolute;
+}
+
+@media only screen and (max-width: 1366px){
+.mainLogoSec{
+    display: none;
+    
+}
+}
