@@ -36,6 +36,12 @@
     line-height: 20px;
     font-family: Conthrax;
 }
+.navLink2{
+    color: white;
+    font-size:1.2em;
+    line-height: 60px;
+    font-family: Conthrax;
+}
 /* footer css in footer.js */
 .footerWholeSize{
     margin-top: 3%;

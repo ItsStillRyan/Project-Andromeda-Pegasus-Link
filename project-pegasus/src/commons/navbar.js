@@ -58,7 +58,7 @@ export default class NavbarMain extends React.Component {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
                             <NavDropdown title={
-                                <span className="navLink ml-5">Categories</span>
+                                <span className="navLink ml-3">Categories</span>
                             } id="collasible-nav-dropdown">
                                 {this.renderCategories()}
 
@@ -66,16 +66,34 @@ export default class NavbarMain extends React.Component {
 
                             <Nav.Link>
                                 <Link to="/gettingstarted">
-                                    <span className="navLink ml-5 mt-5">Getting Started</span>
+                                    <span className="navLink ml-3 mt-5">Getting Started</span>
                                 </Link>
                             </Nav.Link>
 
                             <Nav.Link>
                                 <Link to="/uploads">
-                                    <span className="navLink ml-5">Upload into the Index</span>
+                                    <span className="navLink ml-3">Upload into the Index</span>
                                 </Link>
                             </Nav.Link>
+                        </Nav>
 
+                        <Nav className="ml-auto">
+                            <Nav.Link>
+                                <Link to="/">
+                                    <span className="navLink2 mr-3">Store</span>
+                                </Link>
+                            </Nav.Link>
+                            <Nav.Link>
+                                <Link to="/">
+                                    <img
+                                        src={logo}
+                                        width="60"
+                                        height="60"
+                                        className="d-inline-block align-top"
+                                        alt="Pegasus Logo"
+                                    />
+                                </Link>
+                            </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
